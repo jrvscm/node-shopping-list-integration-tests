@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: aqueous-earth-35872
+  provider: heroku
+  api_key:
+    secure: N1eXPp1l1co3G5HsqGw2KAWqGut6Y58GkGNtpO3lZ8TPVwhZRwG6XYMmpyP2F2zEdViw4f/D8twg7mjR86xuPJw19lwWhAjaQs9S77960Hp/jUxXqtzVNo9kunIoNm4sA1AfoA9SFXKCgqT+em/yDQLOzN86cEnExF9olY+/HAY7DEwqkCEsaSEp/hB21HY3Ys/+WgxXiR3BFveJIL4s5CaI70VZKilv6heMViMNtVwUchttDt1vkxK1K1L/P4tp6wnWYKVWnHBsJH+2WObPw4MWclHqtrzTSNBBoRzLQfi6FtvJzm1Sp0gbAvf4H/9VFRKBCl6rt70yVWtDppz/n/pTX6VHq61FiqnBu9J2lfLAJn4R32ouCJoKDMsuUamv6dGWX6oF9f0bqV9n/lmQBIjwT2jPe1yCMxl8PSBgzQcwbEUSV0iYS1+rOfFPenw3C2j35+b8bc49A4qxraQMKn7BMNh6/2umrz5eB5WTD6nM+X8p5V6G8/9sP+BOh7bImwIX1Uz0Eepit0Tg6oIht3qG2tD+vHDxs31+2/uupLVEBHDiLTh/0nW2jpQY4hxu/MDUhsKEPc0rgOsyWuJ0eTgVhrDo6eXxDj9V7CSGAwC7jAZnsi7P/kIrJeLM61c3bIJLw81RaNmkKEJMWS8coCsDnbmvk7N6zuk6gYBfIlY=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: jrvscm/node-shopping-list-integration-tests
